@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">hahahaha</string>
-    <string name="your_score">Your Score</string>
-    <string name="yugesh_verma">Yugesh Verma</string>
-    <string name="projectworldsofficial_gmail_com">projectworldsofficial@gmail.com</string>
-    <string name="gajendra_pradhan">Gajendra Pradhan</string>
-    <string name="gajenpradhan18_gmail_com">Gajenpradhan18@gmail.com</string>
+    <string name="your_score">현재 점수 : </string>
     <string name="quizapp">상식퀴즈</string>
+
+    <string name="question1">1. What is Deoxyribonucleic acid commonly referred to as?</string>
+    <string name="question1_choice1">RNA</string>
+    <string name="question1_choice2">CIA</string>
+    <string name="question1_choice3">DNA</string>
+
+
+
 </resources>
