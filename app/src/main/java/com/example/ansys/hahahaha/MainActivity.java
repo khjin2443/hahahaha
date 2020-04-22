@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText edit_name;
     Button start_btn, about_btn;
-    String str;
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
         start_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                str = edit_name.getText().toString();
-
+                name = edit_name.getText().toString();
+                Intent intent = new Intent(MainActivity.this, activity_quiz.class);
+                intent.putExtra("name",name);
+                startActivity(intent);
             }
         });
 
