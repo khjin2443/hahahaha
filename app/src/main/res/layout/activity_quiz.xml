@@ -21,7 +21,7 @@
 
 
     <RadioGroup
-        android:id="@+id/answersgrp"
+        android:id="@+id/rb_grp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -30,37 +30,37 @@
         android:layout_marginEnd="323dp"
         android:layout_marginBottom="8dp"
         android:clickable="true"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/next_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvque">
+        app:layout_constraintTop_toBottomOf="@+id/quiz_title">
         <!--android:layout-->
         <!--android:checkedButton="@+id/radioButton"-->
 
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="A" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="B" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/rb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="C" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/rb4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
@@ -69,24 +69,24 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/answersgrp"
+        android:layout_below="@+id/rb_grp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:background="#FF5722"
         android:text="Next Question"
         android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/buttonquit"
+        app:layout_constraintBottom_toTopOf="@+id/quit_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/buttonquit"
+        android:id="@+id/quit_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/next_btn"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:background="#01579B"
@@ -97,10 +97,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/tvque"
+        android:id="@+id/quiz_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/answersgrp"
+        android:layout_above="@+id/rb_grp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="60dp"

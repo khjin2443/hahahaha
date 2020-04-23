@@ -7,16 +7,18 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/quizapp"
-        android:layout_marginTop="48dp"
-        android:textSize="60dp"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/edit_name"
         android:layout_alignStart="@+id/edit_name"
-        android:textColor="#F44336" />
+        android:layout_alignLeft="@+id/edit_name"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/quizapp"
+        android:textColor="#F44336"
+        android:textSize="40dp" />
 
     <Button
         android:layout_width="200dp"
@@ -38,7 +40,7 @@
         android:ems="10"
         android:id="@+id/edit_name"
         android:textColor="#df040b"
-        android:hint="Enter your name"
+        android:hint="이름을 입력하세요"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 

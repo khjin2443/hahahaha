@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">hahahaha</string>
     <string name="your_score">현재 점수 : </string>
-    <string name="quizapp">상식퀴즈</string>
+    <string name="quizapp">넌센스퀴즈</string>
 
     <string name="question1">1. What is Deoxyribonucleic acid commonly referred to as?</string>
     <string name="question1_choice1">RNA</string>
