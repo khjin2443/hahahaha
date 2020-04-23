@@ -102,6 +102,25 @@ public class activity_quiz extends AppCompatActivity {
                 }
 
                 flag++;
+
+                if (score != null)
+                    score.setText(""+correct);
+
+                if(flag<question.length)
+                {
+                    quiz_title.setText(question[flag]);
+                    rb1.setText(opt[flag*4]);
+                    rb2.setText(opt[flag*4 +1]);
+                    rb3.setText(opt[flag*4 +2]);
+                    rb4.setText(opt[flag*4 +3]);
+                }
+                else
+                {
+                    marks=correct;
+                    Intent in = new Intent(getApplicationContext(),activity_result.class);
+                    startActivity(in);
+                }
+                rb_grp.clearCheck();
             }
         });
     }
