@@ -31,6 +31,10 @@ public class activity_result extends AppCompatActivity {
         correct_btn.setText(sb);
         wrong_btn.setText(sb2);
 
+        //문제 초기화
+        activity_quiz.correct = 0;
+        activity_quiz.wrong = 0;
+
 
         re_btn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -123,5 +123,13 @@ public class activity_quiz extends AppCompatActivity {
                 rb_grp.clearCheck();
             }
         });
+
+        quit_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),activity_result.class);
+                startActivity(intent);
+            }
+        });
     }
 }
