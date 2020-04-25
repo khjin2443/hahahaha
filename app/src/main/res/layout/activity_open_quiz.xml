@@ -55,7 +55,7 @@
                 android:id="@+id/hint1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="hint." />
+                android:text="hint" />
         </RadioGroup>
 
         <TextView
@@ -73,6 +73,12 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:inputType="text" />
+
+        <Button
+            android:id="@+id/hint2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hint" />
 
         <TextView
             android:id="@+id/question3"
@@ -107,6 +113,12 @@
             android:layout_height="wrap_content"
             android:text="@string/question3_choice4" />
 
+        <Button
+            android:id="@+id/hint3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT" />
+
         <TextView
             android:id="@+id/question4"
             android:layout_width="wrap_content"
@@ -124,6 +136,12 @@
             android:layout_height="wrap_content"
             android:imeOptions="actionDone"
             android:inputType="text" />
+
+        <Button
+            android:id="@+id/hint4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT" />
 
         <TextView
             android:id="@+id/question5"
@@ -159,6 +177,12 @@
         </RadioGroup>
 
 
+        <Button
+            android:id="@+id/hint5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT" />
+
         <TextView
             android:id="@+id/question6"
             android:layout_width="wrap_content"
@@ -175,6 +199,12 @@
             android:layout_height="wrap_content"
             android:imeOptions="actionDone"
             android:inputType="text" />
+
+        <Button
+            android:id="@+id/hint6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT" />
 
         <TextView
             android:id="@+id/question7"
@@ -211,6 +241,12 @@
             android:text="@string/question7_choice4" />
 
 
+        <Button
+            android:id="@+id/hint7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT" />
+
         <TextView
             android:id="@+id/question8"
             android:layout_width="wrap_content"
@@ -228,6 +264,12 @@
             android:layout_height="wrap_content"
             android:imeOptions="actionDone"
             android:inputType="text" />
+
+        <Button
+            android:id="@+id/hint8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT" />
 
         <TextView
             android:id="@+id/question9"
@@ -257,6 +299,12 @@
 
         </RadioGroup>
 
+        <Button
+            android:id="@+id/hint9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT" />
+
         <TextView
             android:id="@+id/question10"
             android:layout_width="wrap_content"
@@ -273,6 +321,12 @@
             android:layout_height="wrap_content"
             android:imeOptions="actionDone"
             android:inputType="text" />
+
+        <Button
+            android:id="@+id/hint10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT" />
 
         <Button
             android:id="@+id/submit_answers"
