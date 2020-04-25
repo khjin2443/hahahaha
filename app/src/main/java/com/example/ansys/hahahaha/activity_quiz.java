@@ -18,23 +18,23 @@ public class activity_quiz extends AppCompatActivity {
     RadioGroup rb_grp;
 
     String question[] = {
-            "Which method can be defined only once in a program?",
-            "Which of these is not a bitwise operator?",
-            "Which keyword is used by method to refer to the object that invoked it?",
-            "Which of these keywords is used to define interfaces in Java?",
-            "Which of these access specifiers can be used for an interface?",
-            "Which of the following is correct way of importing an entire package ‘pkg’?",
-            "What is the return type of Constructors?",
-            "Which of the following package stores all the standard java classes?",
-            "Which of these method of class String is used to compare two String objects for their equality?",
-            "An expression involving byte, int, & literal numbers is promoted to which of these?"
+            "프로그램에서 한 번만 정의 할 수있는 것은 무엇일까요?",
+            "비트 연산자가 아닌 것은 무엇일까요?",
+            "메소드에서 키워드를 호출 한 오브젝트를 참조하기 위해 사용하는 키워드는 무엇일까요?",
+            "Java에서 인터페이스를 정의하는 데 사용되는 키워드는 무엇일까요?",
+            "인터페이스에 사용할 수있는 액세스 지정자는 무엇일까요?",
+            "다음 중 전체 패키지 'pkg'를 가져 오는 올바른 방법은 무엇일까요?",
+            "생성자의 반환 유형은 무엇일까요?",
+            "다음 중 표준 Java 클래스를 모두 저장하는 패키지는 무엇일까요?",
+            "두 String 객체가 동일한지 비교하기 위해 String 클래스의 다음 중 어떤 방법을 사용할까요?",
+            "바이트, 정수 및 리터럴 숫자를 포함하는 표현식이 다음 중 어느 것으로 오를까요?"
     };
 
     //정답 리스트
-    String answers[] = {"a","<=","this","interface","public","import pkg.*","None of the mentioned","java","equals()","int"};
+    String answers[] = {"main method","<=","this","interface","public","import pkg.*","None of the mentioned","java","equals()","int"};
     //오답 리스트
     String opt[] = {
-            "finalize method","a","static method","private method",
+            "finalize method","main method","static method","private method",
             "&","&=","|=","<=",
             "import","this","catch","abstract",
             "Interface","interface","intf","Intf",

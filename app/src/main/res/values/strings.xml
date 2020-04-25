@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">hahahaha</string>
     <string name="your_score">현재 점수 : </string>
-    <string name="quizapp">넌센스퀴즈</string>
+    <string name="quizapp">퀴즈</string>
     <string name="title_quiz">대표문제 풀기</string>
 
 
