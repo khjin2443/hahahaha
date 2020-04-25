@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_quiz" />
-        <activity android:name=".activity_result"></activity>
+        <activity android:name=".activity_result" />
+        <activity android:name=".activity_other"></activity>
     </application>
 
 </manifest>

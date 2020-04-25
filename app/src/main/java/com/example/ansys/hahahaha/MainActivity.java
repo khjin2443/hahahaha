@@ -10,7 +10,7 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     EditText edit_name;
-    Button start_btn, about_btn;
+    Button start_btn, other_btn;
     String name;
 
     @Override
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         edit_name = findViewById(R.id.edit_name);
         start_btn = findViewById(R.id.start_btn);
-        about_btn = findViewById(R.id.about_btn);
+        other_btn = findViewById(R.id.other_btn);
 
         start_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
                 name = edit_name.getText().toString();
                 Intent intent = new Intent(MainActivity.this, activity_quiz.class);
                 intent.putExtra("name",name);
+                startActivity(intent);
+            }
+        });
+
+        other_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, activity_other.class);
                 startActivity(intent);
             }
         });
