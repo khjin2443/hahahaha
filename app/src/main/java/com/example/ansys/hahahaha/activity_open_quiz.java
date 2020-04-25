@@ -18,9 +18,10 @@ public class activity_open_quiz extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
-    //
-    Button hint1;
-    //
+    int b = activity_other.a;
+
+
+    Button hint1, hint2, hint3, hint4, hint5, hint6, hint7, hint8, hint9, hint10 ;
 
 
     // Question 1
@@ -56,14 +57,147 @@ public class activity_open_quiz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_open_quiz);
 
-
+        //연결
         hint1 = (Button)findViewById(R.id.hint1);
+        hint2 = (Button)findViewById(R.id.hint2);
+        hint3 = (Button)findViewById(R.id.hint3);
+        hint4 = (Button)findViewById(R.id.hint4);
+        hint5 = (Button)findViewById(R.id.hint5);
+        hint6 = (Button)findViewById(R.id.hint6);
+        hint7 = (Button)findViewById(R.id.hint7);
+        hint8 = (Button)findViewById(R.id.hint8);
+        hint9 = (Button)findViewById(R.id.hint9);
+        hint10 = (Button)findViewById(R.id.hint10);
+
+
+        if(b==1){
+            hint1.setVisibility(View.VISIBLE);
+            hint2.setVisibility(View.VISIBLE);
+            hint3.setVisibility(View.VISIBLE);
+            hint4.setVisibility(View.VISIBLE);
+            hint5.setVisibility(View.VISIBLE);
+            hint6.setVisibility(View.VISIBLE);
+            hint7.setVisibility(View.VISIBLE);
+            hint8.setVisibility(View.VISIBLE);
+            hint9.setVisibility(View.VISIBLE);
+            hint10.setVisibility(View.VISIBLE);
+        }
+        else {
+            hint1.setVisibility(View.INVISIBLE);
+            hint2.setVisibility(View.INVISIBLE);
+            hint3.setVisibility(View.INVISIBLE);
+            hint4.setVisibility(View.INVISIBLE);
+            hint5.setVisibility(View.INVISIBLE);
+            hint6.setVisibility(View.INVISIBLE);
+            hint7.setVisibility(View.INVISIBLE);
+            hint8.setVisibility(View.INVISIBLE);
+            hint9.setVisibility(View.INVISIBLE);
+            hint10.setVisibility(View.INVISIBLE);
+        }
+
+        //이벤트처리
         hint1.setOnClickListener(new View.OnClickListener() {
             @Override
 
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("1번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+
+        hint2.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("2번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+
+        hint3.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("3번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+
+        hint4.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("4번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+        hint5.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("5번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+        hint6.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("6번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+        hint7.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("7번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+
+        hint8.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("8번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+
+        hint9.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("9번문제 힌트");
+                dlg.setMessage("정답은 DNA");
+                dlg.show();
+            }
+        });
+
+        hint10.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
+                dlg.setTitle("10번문제 힌트");
                 dlg.setMessage("정답은 DNA");
                 dlg.show();
             }

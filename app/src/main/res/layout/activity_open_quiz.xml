@@ -55,6 +55,7 @@
                 android:id="@+id/hint1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:visibility="invisible"
                 android:text="hint" />
         </RadioGroup>
 
@@ -78,6 +79,7 @@
             android:id="@+id/hint2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="hint" />
 
         <TextView
@@ -117,6 +119,7 @@
             android:id="@+id/hint3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="HINT" />
 
         <TextView
@@ -141,6 +144,7 @@
             android:id="@+id/hint4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="HINT" />
 
         <TextView
@@ -181,6 +185,7 @@
             android:id="@+id/hint5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="HINT" />
 
         <TextView
@@ -204,6 +209,7 @@
             android:id="@+id/hint6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="HINT" />
 
         <TextView
@@ -245,6 +251,7 @@
             android:id="@+id/hint7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="HINT" />
 
         <TextView
@@ -269,6 +276,7 @@
             android:id="@+id/hint8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="HINT" />
 
         <TextView
@@ -303,6 +311,7 @@
             android:id="@+id/hint9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="HINT" />
 
         <TextView
@@ -326,6 +335,7 @@
             android:id="@+id/hint10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:text="HINT" />
 
         <Button
