@@ -17,6 +17,7 @@ public class activity_quiz extends AppCompatActivity {
     Button next_btn, quit_btn;
     RadioGroup rb_grp;
 
+    //문제
     String question[] = {
             "프로그램에서 한 번만 정의 할 수있는 것은 무엇일까요?",
             "비트 연산자가 아닌 것은 무엇일까요?",
@@ -58,11 +59,13 @@ public class activity_quiz extends AppCompatActivity {
 
         final TextView score = findViewById(R.id.score);
 
+
+
         //이름불러오기
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");
         receive_name.setText(name);
-        //
+
 
         next_btn = findViewById(R.id.next_btn); //다음버튼연결
         quit_btn = findViewById(R.id.quit_btn); //종료버튼연결

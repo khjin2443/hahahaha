@@ -116,7 +116,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("1번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("DNA");
                 dlg.show();
             }
         });
@@ -127,7 +127,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("2번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("Vulcanizing");
                 dlg.show();
             }
         });
@@ -138,7 +138,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("3번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("1, 3");
                 dlg.show();
             }
         });
@@ -149,7 +149,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("4번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("Gravity");
                 dlg.show();
             }
         });
@@ -159,7 +159,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("5번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("Pine trees");
                 dlg.show();
             }
         });
@@ -169,7 +169,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("6번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("Clouds OR Cloud");
                 dlg.show();
             }
         });
@@ -179,7 +179,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("7번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("3, 4");
                 dlg.show();
             }
         });
@@ -190,7 +190,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("8번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("Wrist");
                 dlg.show();
             }
         });
@@ -201,7 +201,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("9번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("Stalagmites");
                 dlg.show();
             }
         });
@@ -212,7 +212,7 @@ public class activity_open_quiz extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(activity_open_quiz.this);
                 dlg.setTitle("10번문제 힌트");
-                dlg.setMessage("정답은 DNA");
+                dlg.setMessage("Smelting");
                 dlg.show();
             }
         });
