@@ -17,6 +17,7 @@ public class activity_quiz extends AppCompatActivity {
     Button next_btn, quit_btn;
     RadioGroup rb_grp;
 
+
     //문제
     String question[] = {
             "프로그램에서 한 번만 정의 할 수있는 것은 무엇일까요?",
@@ -59,8 +60,6 @@ public class activity_quiz extends AppCompatActivity {
 
         final TextView score = findViewById(R.id.score);
 
-
-
         //이름불러오기
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");
@@ -97,6 +96,7 @@ public class activity_quiz extends AppCompatActivity {
                 if(ansText.equals(answers[flag])) {
                     correct++;
                     Toast.makeText(getApplicationContext(), "정답!", Toast.LENGTH_SHORT).show();
+
                 }
                 //틀리면 틀렸다는 토스
                 else {
