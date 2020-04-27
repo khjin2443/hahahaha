@@ -17,6 +17,9 @@ public class activity_quiz extends AppCompatActivity {
     Button next_btn, quit_btn;
     RadioGroup rb_grp;
 
+    TextView count_quiz;
+    int count = 1;
+
 
     //문제
     String question[] = {
@@ -60,6 +63,9 @@ public class activity_quiz extends AppCompatActivity {
 
         final TextView score = findViewById(R.id.score);
 
+        //수 증가
+        count_quiz = findViewById(R.id.count_quiz);
+
         //이름불러오기
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");
@@ -84,6 +90,10 @@ public class activity_quiz extends AppCompatActivity {
         next_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                count++;
+                count_quiz.setText(count+"/"+question.length);
+
                 if(rb_grp.getCheckedRadioButtonId()==-1)
                 {
                     Toast.makeText(getApplicationContext(), "하나를 고르세요!", Toast.LENGTH_SHORT).show();
